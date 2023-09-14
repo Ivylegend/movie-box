@@ -1,0 +1,39 @@
+.app__navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 5rem;
+}
+
+.navbar__search{
+    width: 500px;
+    background-color: transparent;
+    padding: 0.7rem 1rem;
+    border-radius: 7px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.navbar__search input{
+    border: none;
+    background-color: transparent;
+    width: 400px;
+    outline: none;
+    color: white;
+}
+
+.navbar__search input::placeholder{
+    color: white;
+}
+
+.navbar__menu{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: white;
+    cursor: pointer;
+}

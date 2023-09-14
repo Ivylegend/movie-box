@@ -1,0 +1,6 @@
+.app__header{
+    background-image: url(../../assets/images/Poster.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
