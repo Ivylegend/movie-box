@@ -21,7 +21,7 @@ const Navbar = ({ onSearch }) => {
 
   return (
     <div className="app__navbar">
-      <img src={Logo} alt="logo" />
+      <img src={Logo} alt="logo" className="logo"/>
       <div className="navbar__search">
         <input
           onChange={(e) => setSearch(e.target.value)}
@@ -33,7 +33,7 @@ const Navbar = ({ onSearch }) => {
       </div>
       <div className="navbar__menu">
         <Link style={{textDecoration:"none", color:"white"}} to={'./signup'}>
-          <p>Sign In</p>
+          <p className="signin">Sign In</p>
         </Link>
         <img src={Menu} alt="menu" />
       </div>

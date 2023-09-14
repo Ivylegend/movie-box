@@ -41,6 +41,11 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 } */
+@media (prefers-color-scheme: dark) {
+  .footer__links a {
+    color: black;
+  }
+}
 
 @media (prefers-color-scheme: light) {
  

@@ -1,6 +1,13 @@
-.app__header{
-    background-image: url(../../assets/images/Poster.png);
-    background-repeat: no-repeat;
+.app__header {
+  background-image: url(../../assets/images/Poster.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+@media screen and (max-width: 769px) {
+  .app__header {
     background-size: cover;
-    height: 600px;
+    background-position: center;
+  }
 }
